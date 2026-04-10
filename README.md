@@ -80,9 +80,9 @@ providing a more nuanced view of model performance.
 
 | Model | Train Loss | Val Loss |
 |-------|-----------|---------|
-| Logistic Regression | - | - |
-| Random Forest | - | - |
-| Gradient Boosting | - | - |
+| Logistic Regression | 0.3991 | 0.4122 |
+| Random Forest | 0.3643 | 0.4102 |
+| Gradient Boosting | 0.2706 | 0.3932 |
 | SVM | 0.3943 | 0.4380 |
 
 ![Loss - Logistic Regression](loss_Logistic_Regression.png)
