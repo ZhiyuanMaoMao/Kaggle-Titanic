@@ -50,6 +50,8 @@ Correlation between each feature and survival rate was
 visualised through diagrams prior to feature selection, 
 providing data-driven justification for the engineering decisions.
 
+![Feature Overview](output_features.png)
+
 ---
 
 ## 3. Model Training & Cross Validation
@@ -76,6 +78,13 @@ to assess prediction confidence beyond simple accuracy.
 It penalises uncertain or wrong predictions more heavily, 
 providing a more nuanced view of model performance.
 
+| Model | Train Loss | Val Loss |
+|-------|-----------|---------|
+| Logistic Regression | - | - |
+| Random Forest | - | - |
+| Gradient Boosting | - | - |
+| SVM | 0.3943 | 0.4380 |
+
 ![Loss - Logistic Regression](loss_Logistic_Regression.png)
 ![Loss - Random Forest](loss_Random_Forest.png)
 ![Loss - Gradient Boosting](loss_Gradient_Boosting.png)
@@ -85,13 +94,11 @@ providing a more nuanced view of model performance.
 Training vs validation accuracy curves were plotted for 
 all four models to diagnose overfitting and underfitting.
 
-![Learning Curve - Logistic Regression](learning_curve_Logistic_Regression.png)
-![Learning Curve - Random Forest](learning_curve_Random_Forest.png)
-![Learning Curve - Gradient Boosting](learning_curve_Gradient_Boosting.png)
-![Learning Curve - SVM](learning_curve_SVM.png)
+![Learning Curves - Overfitting Check](output-overfit-curve.png)
 
 > Gradient Boosting showed signs of overfitting with a 
-> train/validation accuracy gap of 0.068.
+> train/validation accuracy gap of 0.068. All other models 
+> showed healthy convergence between training and validation scores.
 
 ---
 
