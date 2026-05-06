@@ -45,7 +45,7 @@ Correlation between each feature and survival rate was
 visualised prior to feature selection, providing
 data-driven justification for the engineering decisions.
 
-![Feature Overview](output_features.png)
+![Feature Overview](findings/output_features.png)
 
 New features created to improve predictive power:
 
@@ -96,16 +96,16 @@ providing a more nuanced view of model performance.
 | Gradient Boosting | 0.2706 | 0.3932 |
 | SVM | 0.3943 | 0.4380 |
 
-![Loss - Logistic Regression](loss_Logistic_Regression.png)
-![Loss - Random Forest](loss_Random_Forest.png)
-![Loss - Gradient Boosting](loss_Gradient_Boosting.png)
-![Loss - SVM](loss_SVM.png)
+![Loss - Logistic Regression](findings/loss_Logistic_Regression.png)
+![Loss - Random Forest](findings/loss_Random_Forest.png)
+![Loss - Gradient Boosting](findings/loss_Gradient_Boosting.png)
+![Loss - SVM](findings/loss_SVM.png)
 
 ### Learning Curves (Accuracy)
 Training vs validation accuracy curves were plotted for
 all four models to diagnose overfitting and underfitting.
 
-![Learning Curves - Overfitting Check](output-overfit-curve.png)
+![Learning Curves - Overfitting Check](findings/output-overfit-curve.png)
 
 > Gradient Boosting showed signs of overfitting with a
 > train/validation accuracy gap of 0.068. All other models
